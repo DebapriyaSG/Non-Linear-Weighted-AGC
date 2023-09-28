@@ -30,8 +30,7 @@ for ii=1:SZ(1)
         counter=counter+1;
         file=strcat(path1,'\',f);
         
-        A=dicomread(file);
-        info=dicominfo(file);
+        A=dicomread(file);        
         B=A;        
         A=double(A);
         l=min(A(:));
