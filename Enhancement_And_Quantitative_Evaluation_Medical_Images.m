@@ -44,7 +44,7 @@ for ii=1:SZ(1)
         SD=std(A(:));  
         
 
-       % Original image rms and entropy
+       % Original image rms and entropy for comparison
         SM_I=0;
         for i=1:SS(1)
             for j=1:SS(2)                 
