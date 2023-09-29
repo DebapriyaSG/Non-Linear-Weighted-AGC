@@ -65,13 +65,14 @@ for ii=1:SZ(1)
             ImOut=uint8(255*(Iout));
         end
         
-        %Uncomment the below three lines to view the original and enhanced images
+        %Uncomment the below four lines to view the original and enhanced images
         %Since the database is huge, uncommenting is suggested only for
         %selected images (step running).
-
+        
+        %figure;
         %imshow(Im);
         %figure;
-        imshow(ImOut);
+        %imshow(ImOut);
 
         %rms computation  
         Im_I=double(ImOut);               
